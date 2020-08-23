@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/latoregular.ttf);
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/latothin.ttf);
+    font-weight: 100;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/latolight.ttf);
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/latobold.ttf);
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Lato';
+    src: url(../fonts/latoheavy.ttf);
+    font-weight: 401;
+}
+@font-face {
+    font-family: 'Bebas';
+    src: url(../fonts/ofont.ru_Bebas_Neue.ttf);
+}
+@font-face {
+    font-family: 'Raleway';
+    src: url(../fonts/Raleway-Light.ttf);
+}
