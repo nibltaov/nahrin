@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
         integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style/all.min.css">
     <link rel="stylesheet" href="style/main.css">
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-    <meta name="description" content="Описание нужно небольшое написать. Только я не знаю что))))">    
+    <meta name="description" content="Описание нужно небольшое написать. Только я не знаю что))))">
 </head>
 
 <body>
@@ -230,25 +231,29 @@
                         </div>
                         <div class="col-12">
                             <div class="row plan_items">
-                                <div class="plan_item col-2 d-flex flex-column align-items-center text-white">
+                                <div
+                                    class="plan_item col-12 col-md-6 col-lg-2 col- d-flex flex-column align-items-center text-white">
                                     <div class="d-flex justify-content-center align-items-center plan_pic">
                                         <img src="images/1.png" alt="">
                                     </div>
                                     <p>Персональная</p>
                                 </div>
-                                <div class="plan_item col-2 d-flex flex-column align-items-center text-white">
+                                <div
+                                    class="plan_item col-12 col-md-6 col-lg-2 d-flex flex-column align-items-center text-white">
                                     <div class="d-flex justify-content-center align-items-center plan_pic">
                                         <img src="images/2.png" alt="">
                                     </div>
                                     <p>Групповая</p>
                                 </div>
-                                <div class="plan_item col-2 d-flex flex-column align-items-center text-white">
+                                <div
+                                    class="plan_item col-12 col-md-6 col-lg-2 d-flex flex-column align-items-center text-white">
                                     <div class="d-flex justify-content-center align-items-center plan_pic">
                                         <img src="images/3.png" alt="">
                                     </div>
                                     <p>Лидерская</p>
                                 </div>
-                                <div class="plan_item col-2 d-flex flex-column align-items-center text-white">
+                                <div
+                                    class="plan_item col-12 col-md-6 col-lg-2 d-flex flex-column align-items-center text-white">
                                     <div class="d-flex justify-content-center align-items-center plan_pic">
                                         <img src="images/4.png" alt="">
                                     </div>
@@ -523,13 +528,78 @@
                                     </p>
                                 </section>
                             </div>
+                            <div class="swiper-slide flex-column align-items-center">
+                                <img src="images/15.jpg" alt="" class="swiper_img">
+                                <section class="products_content">
+                                    <img src="images/star.png" alt="">
+                                    <h3 class="products_title">
+                                        АРТИШОК
+                                    </h3>
+                                    <p class="products_desc">
+                                        Артишок прекрасно выводит токсины из организма, улучшает состояние печени и
+                                        восстанавливает здоровье ЖКТ.
+                                        Натуральный состав обеспечивает высокую действенность не лекарственного
+                                        препарата.
+                                    </p>
+                                </section>
+                            </div>
                         </div>
                         <div class="swiper-button-next"></div>
                         <div class="swiper-button-prev"></div>
                     </div>
                 </div>
             </div>
+            <div class="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-12 beef">
+                            <div class="map">
+                                <div style="position:relative;overflow:hidden;"><a
+                                        href="https://yandex.uz/maps/org/swiss_nahrin_uzbekistan/236887683043/?utm_medium=mapframe&utm_source=maps"
+                                        style="color:#eee;font-size:12px;position:absolute;top:0px;">Swiss Nahrin
+                                        Uzbekistan</a><a
+                                        href="https://yandex.uz/maps/10335/tashkent/category/phytoproducts_dietary_supplements/?utm_medium=mapframe&utm_source=maps"
+                                        style="color:#eee;font-size:12px;position:absolute;top:14px;">Фитопродукция,
+                                        БАДы в Ташкенте</a><iframe src="https://yandex.uz/map-widget/v1/-/CCQtNZezdA"
+                                        width="100%" height="400" frameborder="1" allowfullscreen="true"
+                                        style="position:relative;"></iframe></div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-12 text-lg-right text-center">
+                            <h4 class="contact_title">
+                                Наш адрес
+                            </h4>
+                            <p class="contact_desc">
+                                город Ташкент <br>
+                                ул. Узбекистон овози, 49
+                            </p>
+                            <a href="tel:+998977185357" class="contact_link">+998 98 000 99 00</a>
+                            <ul class="social d-flex justify-content-lg-end justify-content-center">
+                                <li><a href="https://instagram.com/nahrinuz" class="social_link fab fa-instagram"></a></li>
+                                <li><a href="https://www.facebook.com/nahrinuz" class="social_link fab fa-facebook-f"></a></li>
+                                <li><a href="https://t.me/nahrinuz" class="social_link fab fa-telegram-plane"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
+        <footer class="footer">
+            <div class="container">
+                <h4 class="footer_title">
+                    Получить бесплатную консультацию
+                </h4>
+                <div class="footer_form row justify-content-center">
+                    <div class="col-md-6 col-12 d-flex">
+                        <input type="number" class="footer_input" placeholder="Введите номер телефона">
+                        <div class="footer_link">
+                            <a href="/send" class="btnf">Отправить</a>
+                        </div>
+                    </div>
+                </div>
+                <p class="footer_desc text-center">Закажите обратный звонок нашего специалиста</p>
+            </div>
+        </footer>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
