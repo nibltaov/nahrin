@@ -427,6 +427,9 @@ ul {
     outline: none;
     border-right: none;
 }
+.footer_input.error {
+    
+}
 .footer_link {
     padding: 4px;
     border-radius: 0 50px 50px 0;
