@@ -427,9 +427,7 @@ ul {
     outline: none;
     border-right: none;
 }
-.footer_input.error {
-    
-}
+
 .footer_link {
     padding: 4px;
     border-radius: 0 50px 50px 0;
@@ -451,6 +449,37 @@ ul {
 .footer_desc {
     color: #8c8f94;
     font-size: 14px;
+}
+.fix-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: #005b00;
+    display: block;
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 15px;
+    transition: 200ms;
+    
+}
+.fix-btn::before {
+    content: '';
+    animation: btn 2s infinite linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 50%;
+}
+.fix-btn:hover {
+    transform: scale(1.2);
+    color: white;
 }
 @media (max-width: 1200px) {
     .max-width {
@@ -547,3 +576,50 @@ ul {
         font-size: 25px;
     }
 }
+@keyframes btn {
+    0% {
+        border-top: 1px solid red;
+        border-bottom: 1px solid red;
+        border-left: 1px solid rgba(255, 0, 0, 0);
+        border-right: 1px solid rgba(255, 0, 0, 0);
+        transform: scale(1.8);
+    }
+    48% {
+        border-top: 1px solid rgba(255, 0, 0, 0);
+        border-bottom: 1px solid rgba(255, 0, 0, 0);
+        transform: scale(1);
+    }
+    49% {
+        border-top: 1px solid rgba(255, 0, 0, 0);
+        border-bottom: 1px solid rgba(255, 0, 0, 0);
+        transform: scale(1.8);
+    }
+    50% {
+        border-left: 1px solid red;
+        border-right: 1px solid red;
+        border-top: 1px solid rgba(255, 0, 0, 0);
+        border-bottom: 1px solid rgba(255, 0, 0, 0);
+        transform: scale(1.8);
+    }
+    
+    99% {
+        border-left: 1px solid rgba(255, 0, 0, 0);
+        border-right: 1px solid rgba(255, 0, 0, 0);
+        border-top: 1px solid rgba(255, 0, 0, 0);
+        border-bottom: 1px solid rgba(255, 0, 0, 0);
+        transform: scale(1);
+    }
+    100% {
+        border-left: 1px solid rgba(255, 0, 0, 0);
+        border-right: 1px solid rgba(255, 0, 0, 0);
+        border-top: 1px solid rgba(255, 0, 0, 0);
+        border-bottom: 1px solid rgba(255, 0, 0, 0);
+        transform: scale(1.8s);
+    }
+}
+
+/* 
+
+Кто будет работать с этим заказщиком Вы либо сразу откажитесь либо весь берите весь материал сразу заебет материалом. 
+
+*/
