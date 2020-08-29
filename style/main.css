@@ -20,6 +20,10 @@ ul {
     list-style: none;
 }
 
+html, body {
+    scroll-behavior: smooth;
+}
+
 .max-width {
     width: max-content;
 }
